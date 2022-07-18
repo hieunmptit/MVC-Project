@@ -15,11 +15,11 @@ class SigninController extends Signin{
         if($this->checkEmail()){
             $error['email'] = $this -> checkEmail();
         }
-        if($this->checkPwd()){
-            $error['password'] = $this -> checkPwd();
-        }
         if($this -> getSignin($this->email,$this->pwd) == false){
             $error['password'] = "Wrong Password";
+        }
+        if($this->checkPwd()){
+            $error['password'] = $this -> checkPwd();
         }
         if($error){
             return $error;

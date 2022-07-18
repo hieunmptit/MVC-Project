@@ -10,15 +10,12 @@ class Signin extends BaseModel{
         $result = $stmt->fetchAll();
         if($result){
             if($pwd === $result[0]['userPwd']){
-                echo "đúng";
                 return true;
             }
             else
-            echo "sai";
             return false;
         }
-        else
-        echo "sai";
+        else;
         return false;
     }
 }

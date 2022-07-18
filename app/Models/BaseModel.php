@@ -1,7 +1,6 @@
 <?php
 namespace App\Models;
 use \PDO;
-$conn = null;
 class BaseModel{
     private $severname;
     private $username;
@@ -16,7 +15,6 @@ class BaseModel{
         $this->dbname = "testdb";
         $this->charset = "utf8mb4";
         try {
-            global $conn;
             $dsn = "mysql:host=".$this->severname.";dbname=".$this->dbname.";charset=".$this->charset;
             $conn = new PDO($dsn,$this->username,$this->password);
             $conn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

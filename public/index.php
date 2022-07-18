@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Helper/main.css">
+    <link rel="stylesheet" href="../App/Helper/main.css">
 </head>
 <body>
     <div id="main">
         <div id="header">
             <div class="logo">
-                <a href="#content"><img src="Helper/img/logo.png" alt="logo" class="place-img"> </a>
+                <a href="#content"><img src="../App/Helper/img/logo.png" alt="logo" class="place-img"> </a>
             </div>
             <!-- begin nav -->
             <ul id="nav">
                 <li><a href="#content">Trang chủ </a></li>
-                <li><a href="Views/Category">Thể loại</a></li>             
-                <li><a href="Views/Product">Sản phẩm</a></li>
-                <li><a href="Views/Signin">đăng nhập</a></li>
-                <li><a href="Views/Signup">Đăng ký</a></li>
+                <li><a href="../Views/Category">Thể loại</a></li>             
+                <li><a href="../Views/Product">Sản phẩm</a></li>
+                <li><a href="../Views/Signin">đăng nhập</a></li>
+                <li><a href="../Views/Signup">Đăng ký</a></li>
                 <li ><a href="#">Đăng xuất</a></li>
                 
 
@@ -29,7 +29,7 @@
         </div>
         
         <div class="calender">
-            <a href="gdDatLich.jsp"><img src="Helper/img/pngwing.com.png" alt="calender"  class="place-img"></a>
+            <a href="gdDatLich.jsp"><img src="../App/Helper/img/pngwing.com.png" alt="calender"  class="place-img"></a>
         </div>
         <div id="content">
             <!-- About section -->
@@ -68,7 +68,7 @@
                 <div class = "kind">
 
                     <div class="place-item">
-                        <img src="Helper/img/pet1.jpg" alt="New York" class="place-img">
+                        <img src="../App/Helper/img/pet1.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">Cắt tỉa lông</h3>
                             <p class="place-time">100,000 đ</p>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="place-item">
-                        <img src="Helper/img/pet2.jpg" alt="Paris" class="place-img">
+                        <img src="../App/Helper/img/pet2.jpg" alt="Paris" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">Tắm</h3>
                             <p class="place-time">200,000 đ</p>
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="place-item">
-                        <img src="Helper/img/pet3.jpg" alt="San Francisco" class="place-img">
+                        <img src="../App/Helper/img/pet3.jpg" alt="San Francisco" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">Mát xa</h3>
                             <p class="place-time">300,000 đ</p>
